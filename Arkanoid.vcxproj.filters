@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\GraphicEngine">
+      <UniqueIdentifier>{1603ae0d-0ae0-4b7a-9e53-a5c8af4bbf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\GraphicEngine\Objects">
+      <UniqueIdentifier>{debe5b91-fd04-4dd6-a993-227956111cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\GameEngine">
+      <UniqueIdentifier>{f3769b49-954f-47ce-8a2c-b8fd814c266a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GraphicEngine">
+      <UniqueIdentifier>{62be66a1-b091-4de7-ad65-21fcc1d7b064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GraphicEngine\Objects">
+      <UniqueIdentifier>{17908c42-aff6-418c-b4dd-789b92b82a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GraphicEngine\Lights">
+      <UniqueIdentifier>{ce671ac0-e6b3-441d-b71b-093a4f718f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\GraphicEngine\Lights">
+      <UniqueIdentifier>{a643a310-0f67-4a94-a22c-7b1d87d0b749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GameEngine">
+      <UniqueIdentifier>{bfe6740e-26b7-4638-abdb-21bf2a7fe315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\GameEngine\Game">
+      <UniqueIdentifier>{2ad56743-058c-4e01-b50d-4e39118e83da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\GameEngine\Game">
+      <UniqueIdentifier>{0dd20217-bd13-46fe-9f06-16cbd2cc307d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Arkanoid.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\glad.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Pliki źródłowe\GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Pliki źródłowe\GraphicEngine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Pliki źródłowe\GraphicEngine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Pliki źródłowe\GraphicEngine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicEngine.cpp">
+      <Filter>Pliki źródłowe\GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputs.cpp">
+      <Filter>Pliki źródłowe\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectsHandler.cpp">
+      <Filter>Pliki źródłowe\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Pliki źródłowe\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Pliki źródłowe\GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Pliki źródłowe\GraphicEngine\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Pliki źródłowe\GraphicEngine\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Pliki źródłowe\GameEngine\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object.h">
+      <Filter>Pliki nagłówkowe\GraphicEngine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Pliki nagłówkowe\GraphicEngine\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Pliki nagłówkowe\GraphicEngine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Pliki nagłówkowe\GraphicEngine\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Pliki nagłówkowe\GraphicEngine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Pliki nagłówkowe\GraphicEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicEngine.h">
+      <Filter>Pliki nagłówkowe\GraphicEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Pliki nagłówkowe\GraphicEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Pliki nagłówkowe\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs.h">
+      <Filter>Pliki nagłówkowe\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectsHandler.h">
+      <Filter>Pliki nagłówkowe\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Pliki nagłówkowe\GameEngine\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Colors.fs">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="Perspective.vs">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="model_vertex.vs">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+    <None Include="model_color.fs">
+      <Filter>Pliki zasobów</Filter>
+    </None>
+  </ItemGroup>
+</Project>
